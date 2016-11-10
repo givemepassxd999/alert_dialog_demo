@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AlertDialogDemo</string>
+    <string name="lunch1">雞腿飯</string>
+    <string name="lunch2">滷肉飯</string>
+    <string name="lunch3">排骨飯</string>
+    <string name="lunch4">蛋炒飯</string>
+    <string name="lunch5">水餃</string>
+    <string name="lunch6">陽春麵</string>
+    <string name="lunch_time">午餐時間</string>
+    <string name="want_to_eat">要吃飯了嗎?</string>
+    <string name="ok">好</string>
+    <string name="gogo">走吧！一起吃</string>
+    <string name="wait_a_minute">等下再吃</string>
+    <string name="i_am_hungry">可是我好餓耶</string>
+    <string name="not_hungry">不餓</string>
+    <string name="diet">你減肥嗎？</string>
+    <string name="u_eat">你今天吃的是</string>
+    <string name="input_ur_name">請輸入你的名字</string>
+    <string name="hi">你叫做</string>
+</resources>
