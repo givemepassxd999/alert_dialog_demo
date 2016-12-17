@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
     android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/alertdialog1"
-        android:text="AlertDialog1"
+        android:id="@+id/normal_dialog"
+        android:text="@string/normal_dialog"
         >
     </Button>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/alertdialog2"
-        android:text="AlertDialog2"
+        android:id="@+id/list_dialog"
+        android:text="@string/list_dialog"
         >
     </Button>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/alertdialog3"
-        android:text="AlertDialog3"
+        android:id="@+id/custom_dialog"
+        android:text="@string/custom_dialog"
         >
     </Button>
 </LinearLayout>

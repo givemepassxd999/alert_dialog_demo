@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">AlertDialogDemo</string>
+    <string name="app_name">AlertDialog</string>
+    <string name="normal_dialog">Normal Dialog</string>
+    <string name="list_dialog">List Dialog</string>
+    <string name="custom_dialog">Custom Dialog</string>
     <string name="lunch1">雞腿飯</string>
     <string name="lunch2">滷肉飯</string>
     <string name="lunch3">排骨飯</string>
