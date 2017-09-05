@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">AlertDialog</string>
-    <string name="normal_dialog">Normal Dialog</string>
-    <string name="list_dialog">List Dialog</string>
-    <string name="custom_dialog">Custom Dialog</string>
+    <string name="normal_dialog">一般對話框</string>
+    <string name="list_dialog">條列對話框</string>
+    <string name="single_choice_dialog">單選對話框</string>
+    <string name="multi_check_dialog">多選對話框</string>
+    <string name="custom_dialog">客製化對話框</string>
     <string name="lunch1">雞腿飯</string>
     <string name="lunch2">滷肉飯</string>
     <string name="lunch3">排骨飯</string>
@@ -11,7 +13,7 @@
     <string name="lunch6">陽春麵</string>
     <string name="lunch_time">午餐時間</string>
     <string name="want_to_eat">要吃飯了嗎?</string>
-    <string name="ok">好</string>
+    <string name="ok">確定</string>
     <string name="gogo">走吧！一起吃</string>
     <string name="wait_a_minute">等下再吃</string>
     <string name="i_am_hungry">可是我好餓耶</string>

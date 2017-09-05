@@ -15,21 +15,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/normal_dialog"
-        android:text="@string/normal_dialog"
-        >
-    </Button>
+        android:text="@string/normal_dialog" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/list_dialog"
-        android:text="@string/list_dialog"
-        >
-    </Button>
+        android:text="@string/list_dialog" />
+    <Button
+        android:id="@+id/single_choice"
+        android:text="@string/single_choice_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/multi_check"
+        android:text="@string/multi_check_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/custom_dialog"
-        android:text="@string/custom_dialog"
-        >
-    </Button>
+        android:text="@string/custom_dialog" />
 </LinearLayout>
