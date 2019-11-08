@@ -11,6 +11,9 @@ import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
+
+
+
 class MainActivity : AppCompatActivity() {
     private lateinit var lunch: List<String>
     private val buttonListener = View.OnClickListener { view ->
@@ -105,9 +108,9 @@ class MainActivity : AppCompatActivity() {
                 .setPositiveButton(R.string.ok) { _, _ ->
                     val sb = StringBuilder()
                     var isEmpty = true
-                    for (i in checkedStatusList.indices) {
-                        if (checkedStatusList[i]) {
-                            sb.append(lunch[i])
+                    checkedStatusList.forEachIndexed { index, b ->
+                        if (b) {
+                            sb.append(lunch[index])
                             sb.append(" ")
                             isEmpty = false
                         }
@@ -122,5 +125,6 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
                 .show()
+
     }
 }
